@@ -3,3 +3,4 @@ name = "llm-wiki"
 version = "0.1.0"
 description = "Local LLM-maintained personal wiki, built on Karpathy's LLM-Wiki pattern. Runs on Ollama + Qwen3 + QMD."
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
